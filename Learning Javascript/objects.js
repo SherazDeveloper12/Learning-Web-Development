@@ -3,6 +3,8 @@ var laptop ={
     price : 55000,
     company : "dell"
 }
+
+laptop.color = "green"
 console.log("laptop", laptop)
 console.log("laptop price", laptop.price)
 
