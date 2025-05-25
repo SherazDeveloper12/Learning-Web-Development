@@ -21,3 +21,11 @@ console.log("student has A+ grade")
 else{
     console.log("wrong input")
 }
+
+/*
+ternary statement for if else
+*/
+let a = 6
+let b = 9
+let c = a>b ? a-b:b-a
+console.log(c)
