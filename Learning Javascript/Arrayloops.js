@@ -25,3 +25,8 @@ var result = numbers.map((element, index )=> element >5);
 //  filter loop (it does return a value and save it to a new array, we can change the lenght of new array by applying filters )
 var result = numbers.filter((element, index) => element >4); // here we change the lenght of new array
 console.log("result=>", result)
+array.forEach(element => {
+    
+});
+
+map

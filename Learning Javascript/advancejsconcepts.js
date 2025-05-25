@@ -92,9 +92,12 @@ console.log("random", random)
 // finding max value in arry
 var maxvalue= Math.max(...jol)
 console.log("max value in jole", maxvalue)
+var minvalue= Math.min(...jol)
+console.log("min value in jole", minvalue)
 
 //rouding off numbers
 
 console.log("rounded off form of 234.54", Math.round(234.54)) // round()  function is used to round of any number
 console.log("rounded off form of 234.24", Math.ceil(234.24)) // ceil()  function is used to round of any number to uper number in any case
 console.log("rounded off form of 234.84", Math.floor(234.84)) // fllor()  function is used to round of any number to lower number in any case
+
