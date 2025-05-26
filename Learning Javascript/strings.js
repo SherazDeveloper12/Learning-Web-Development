@@ -49,3 +49,10 @@ numbersarray.push(parsed)
 }
 
 console.log("numbers array is here => " , numbersarray)
+
+// template literals
+let s = "harry"
+let fr= "sherazo"
+console.log(`${s} is my friend and ${fr} is harry's friend `)
+console.log(`${s} is my friend and ${fr} is harry"s" friend `)
+console.log(s[3])
