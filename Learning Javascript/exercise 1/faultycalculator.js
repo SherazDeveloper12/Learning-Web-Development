@@ -8,16 +8,16 @@ console.log("You second number =", b)
 console.log("random number is = ", randomNumber)
  console.log("sum  of these two numbers is =", a + b)
 if (randomNumber > 0.1) {
-    alert("sum  of these two numbers is =", a + b)
-    alert("Multiply  of these two numbers is =", a * b)
-    alert("Subtraction  of these two numbers is =", a - b)
-    alert("Division  of these two numbers is =", a / b)
+    alert(`sum  of these two numbers is =${a + b}`)
+    alert(`Multiply  of these two numbers is =${ a * b}`)
+    alert(`Subtraction  of these two numbers is =${  a - b}`)
+    alert(`Division  of these two numbers is =${  a / b}`)
 }
 else {
-    alert("sum  of these two numbers is =", a - b)
-    alert("Multiply  of these two numbers is =", a + b)
-    alert("Subtraction  of these two numbers is =", a / b)
-    alert("Division  of these two numbers is =", a ** b)
+    alert(`sum  of these two numbers is = ${a - b}`)
+    alert(`Multiply  of these two numbers is = ${a + b}`)
+    alert(`Subtraction  of these two numbers is = ${a / b}`)
+    alert(`Division  of these two numbers is = ${ a ** b}`)
 
 }
 
