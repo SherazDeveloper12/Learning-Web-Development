@@ -1,0 +1,7 @@
+ li{
+        list-style: circle;
+        list-style-position: inside;
+        border: 2px solid black ;
+        border-collapse: collapse;
+        
+    }
