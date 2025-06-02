@@ -7,3 +7,6 @@ for (let index = 0; index < names.length; index++) {
     console.log("the value of array is", names[index]);
 
 }
+
+// console.log(names.toString())
+console.log(names.join(" and "))
