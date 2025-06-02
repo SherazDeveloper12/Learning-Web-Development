@@ -19,14 +19,28 @@ console.log("sum of 2+3", sumfunction(2,3))
 numbers.forEach((element, index )=> {
     console.log("element => ", element, "index=>",index )
 });
-//  map loop (it does return a value and save it to a new array, it return the new array lenght with same lenght of old array always)
-var result = numbers.map((element, index )=> element >5);
-    console.log("result=>", result)
-//  filter loop (it does return a value and save it to a new array, we can change the lenght of new array by applying filters )
-var result = numbers.filter((element, index) => element >4); // here we change the lenght of new array
-console.log("result=>", result)
-array.forEach(element => {
-    
-});
 
-map
+//  map loop (it does return a value and save it to a new array, it return the new array lenght with same lenght of old array always)
+let array= [1,2,3,4,5]
+let result = array.map((element, index, array) =>{ 
+   return  element **2 
+})
+    console.log("result=>", result)
+
+// //  filter loop (it does return a value and save it to a new array, we can change the lenght of new array by applying filters )
+let newresult = array.filter((element, index) => element>2); // here we change the lenght of new array
+console.log("result=>", newresult)
+// numbers.forEach(element => {
+    
+// });
+
+for (const element of numbers) {
+    console.log(element)
+    
+}
+
+let a = [1,2,3,4,5]
+console.log("reduced function => ", a.reduce(sumfunction))
+// // let string = "harry"
+// // let newarrayfromstring= array.from("string")
+// console.log("new array from string", array.from("string"))
