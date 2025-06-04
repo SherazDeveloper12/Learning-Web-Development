@@ -1,0 +1,27 @@
+  :root{
+        --backgroundcolor: rgb(255, 0, 0);
+        --color: rgb(255, 255, 255);
+        --semcolor: rgb(139, 6, 84);
+        --defmar: 4px;
+        --bordercolor: solid rgb(255, 255, 255);
+    }
+    .NAV{
+       background-color: var(--backgroundcolor);
+        list-style: none;
+    }
+    UL{
+        display: flex;
+        list-style: none;
+        
+
+    }
+    LI{
+        border: 2PX var(--bordercolor);
+        border-color: ;
+        margin: 2px;
+        padding: var(--defmar);
+    }
+    .content{
+        background-color: var(--semcolor);
+        color: var(--color);
+    }
