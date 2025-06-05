@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom child selection</title>
+    <style>
+        .box {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            padding: 5px;
+            border: 2px solid red;
+        }
+
+        .boxdiv {
+            width: 15px;
+            height: 15px;
+
+            padding: 5px;
+            border: 2px solid red;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">box 1</div>
+        <div class="box">box 2</div>
+        <div class="box">box 3</div>
+        <div class="box">box 4
+            <div class="boxdiv">4ri</div>
+        </div>
+        <div class="box">box 5</div>
+    </div>
+    <script>
+        console.log(typeof document)
+        console.log(typeof window)
+        document.body.children[0].style.backgroundColor = "yellow"
+        document.body.children[0].children[2].previousElementSibling.style.backgroundColor = "lightgreen"
+document.body.children[0].children[3].firstElementChild.style.backgroundColor="White"
+document.body.children[0].children[3].firstElementChild.style.color="black"
+document.body.children[0].children[3].firstElementChild.parentNode.style.backgroundColor="black"
+document.body.children[0].children[3].firstElementChild.parentNode.style.color="White"
+
+
+
+
+    </script>
+</body>
+
+</html>

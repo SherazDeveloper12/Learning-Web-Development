@@ -1,0 +1,16 @@
+.boxes{
+        display: flex;
+    }
+    .box{
+        background-color: aqua;
+        margin: 3px;
+        height: 20vh;
+        width: 20vw;
+        
+    }
+    @media only screen and (max-width: 455px) {
+        .boxes{
+           background-color: red;
+           flex-direction: column;
+        }
+    }
