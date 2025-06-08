@@ -1,0 +1,41 @@
+.boxes *{
+        background-color: aquamarine;
+        border: 2px solid black;
+        margin: 3px;
+    }
+    .box:first-child{
+        background-color: red;
+    }
+   [data-color="primary"]{
+    background-color: yellow;
+   }
+   .box:nth-child(even){
+    background-color: pink;
+   }
+   .box:nth-last-child(1) {
+    background-color: rgb(231, 186, 130);
+   }
+   .boxes::before{
+    content: "sheraz is good";
+    background-color: blueviolet;
+    color: white;
+    padding: 2px;
+    text-transform: capitalize;
+   }
+   .boxes::after{
+    content: " and his css is also good";
+   }
+   ::selection{
+    background-color: black;
+    color: yellow;
+   }
+   .box::first-letter{
+    background-color: rgb(56, 2, 2);
+    color: peru;
+    text-transform: uppercase;
+    font-size: 40px;
+   }
+   input::placeholder{
+    color: rgb(255, 0, 43);
+    font-size: 40px;
+   }
