@@ -1,0 +1,24 @@
+ *{padding: 0;margin: 20px;
+    box-sizing: border-box;}
+    .container{
+        background-color: antiquewhite;
+        border: 5px solid red;
+        height: 80vh;
+        width: 80vw;
+    }
+    .item{
+        border: 2px solid black;
+        background-color: aquamarine;
+        height: 20vh;
+        width: 20vw;
+        transform: rotateZ(40deg);
+        /* transform: rotate(0.35turn); */
+        /* transform: scaleX(1.5); */
+        /* transform: skewY(30DEG); */
+        /* transform: translatey(100%); */
+        transform-origin: 50% 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
