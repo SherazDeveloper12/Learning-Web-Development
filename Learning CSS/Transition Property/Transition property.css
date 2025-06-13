@@ -1,0 +1,14 @@
+.container{
+        background-color: antiquewhite;
+        height: 70vh;
+    }
+    .box{
+        background-color: aquamarine;
+        width: 30vw;
+        height: 20vh;
+        transition: transform 3s ease-in-out 1s;
+        
+    }
+    .translate{
+        transform: translatex(20% ) translateY(40%) scale(20%);
+    }
