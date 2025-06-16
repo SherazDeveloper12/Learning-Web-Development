@@ -1,0 +1,15 @@
+   .box{
+        height: 70vh;
+        width: 70vw;
+        background-color: antiquewhite;
+        border: 5px solid black;
+/* background-image: url(image.png);
+background-repeat: no-repeat;
+background-position: bottom right; */
+    }
+img{
+    width: 30vw;
+    height: 20vh;
+    object-fit: cover;
+    object-position:top right;
+}
