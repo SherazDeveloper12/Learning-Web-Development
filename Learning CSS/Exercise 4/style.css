@@ -1,0 +1,42 @@
+  :root{
+        --color: white;
+        --backgorund_color: rgb(99, 17, 3);
+        --hovercolor: rgb(7, 7, 7);
+        --hoverbackgroundcolor: rgb(118, 255, 170);
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navdiv {
+        margin: 4px;
+        display: inline-block;
+        padding-left: 150px;
+        width: 400px;
+
+    }
+
+    ul {
+        display: flex;
+        text-align: center;
+
+    }
+
+    li {
+        cursor: pointer;
+        list-style: none;
+background-color: var(--backgorund_color);
+color: var(--color);
+        padding: 2px 14px;
+        border-radius: 8px;
+        border-collapse: collapse;
+        margin: 1px;
+       
+    }
+li:hover{
+    background-color: var(--hoverbackgroundcolor);
+    color: var(--hovercolor);
+   
+}
+    
