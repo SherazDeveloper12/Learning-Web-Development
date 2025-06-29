@@ -1,0 +1,9 @@
+.rectangle{
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+}
+.dark{
+    background-color: black ;
+    color: white;
+}
