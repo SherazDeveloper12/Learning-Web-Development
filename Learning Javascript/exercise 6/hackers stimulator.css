@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(2, 24, 2);
+    color: greenyellow;
+    padding: 20px;
+}
